@@ -1,12 +1,5 @@
 .container {
-  margin-top: 96px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  position: absolute;
-  padding: 0 24px;
 }
 
 .h1 {
@@ -45,10 +38,23 @@
 
 .nftBox {
   border-radius: 16px;
-  border: 1px solid #ccc;
-  width: 19%;
+  border: 1px solid #444;
+  background-color: #2b2b2b;
   min-height: 200px;
-  padding: 16px;
+  padding: 4px;
+  text-align: center;
+}
+
+.id-span {
+  position: absolute;
+  top: 0;
+}
+
+.nftMedia {
+  width: 100%;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 15px;
 }
 
 .optionSelectBox {
@@ -171,10 +177,4 @@
 .detailPageHr {
   margin-top: 0px;
   margin-bottom: 32px;
-}
-
-.nftMedia {
-  width: 100%;
-  max-height: 300px;
-  border-radius: 15px;
 }
